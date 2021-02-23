@@ -24,7 +24,7 @@ export default function Home() {
         <div className="md:flex-none md:p-1">
           <div className="flex flex-col items-center space-y-2 mb-4 p-4 shadow rounded-md">
             <img
-              src="/inhohan/profile_image.jpg"
+              src="/profile_image.jpg"
               className="object-cover h-56 w-56 rounded-full"
             ></img>
             <div className="text-xl font-extrabold">Inho Han</div>
