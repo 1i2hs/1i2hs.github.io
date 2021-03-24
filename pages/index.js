@@ -174,7 +174,7 @@ export default function Home() {
                   <li>Next.js</li>
                   <li>Vue.js</li>
                   <li>jQuery</li>
-                  <li>LitElement</li>
+                  <li>LitElement(Web Component)</li>
                 </ul>
                 <div className="text-sm font-medium mb-1 inline-block bg-green-400 pl-1 pr-1">
                   Web Back-end
@@ -197,7 +197,6 @@ export default function Home() {
               <div className="mb-2">
                 <div className="text-base font-semibold mb-1">Databases</div>
                 <ul className="list-inside list-disc text-sm">
-                  <li>MySQL</li>
                   <li>MariaDB</li>
                   <li>SAP Hana</li>
                   <li>MongoDB</li>
@@ -206,7 +205,7 @@ export default function Home() {
               </div>
               <div className="mb-2">
                 <div className="text-base font-semibold mb-1">
-                  Version Control Systems
+                  Git Repositories
                 </div>
                 <ul className="list-inside list-disc text-sm">
                   <li>GitHub</li>
@@ -217,7 +216,7 @@ export default function Home() {
                 <div className="text-base font-semibold mb-1">CI/CD</div>
                 <ul className="list-inside list-disc text-sm">
                   <li>Jenkins</li>
-                  <li>TrevisCI</li>
+                  <li>GitHub Actions</li>
                 </ul>
               </div>
               <div className="mb-2">
@@ -235,13 +234,6 @@ export default function Home() {
                   <li>Korean</li>
                   <li>English</li>
                   <li>Japanese</li>
-                </ul>
-              </div>
-              <div className="mb-2">
-                <div className="text-base font-semibold mb-1">Others</div>
-                <ul className="list-inside list-disc text-sm">
-                  <li>Elasticsearch</li>
-                  <li>AWS</li>
                 </ul>
               </div>
             </div>
