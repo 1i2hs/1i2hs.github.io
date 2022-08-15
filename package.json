@@ -1,6 +1,6 @@
 {
   "name": "oneitowh-github-page",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,11 +9,13 @@
     "export": "next export"
   },
   "dependencies": {
-    "autoprefixer": "^10.2.4",
-    "next": "10.0.6",
-    "postcss": "^8.2.6",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "tailwindcss": "^2.0.3"
+    "next": "^12.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
   }
 }
