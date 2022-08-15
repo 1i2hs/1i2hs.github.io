@@ -121,9 +121,10 @@ export default function Home() {
             </div>
             <ul className="list-inside list-disc">
               <li className="text-sm mb-2">
-                Develop and maintain multiple web services which monitor,
-                analyze, and visualize quality metrics of the relational
-                database product.
+                Develop and maintain a web service which manages the deployment
+                of a cloud-native relational database product according to the
+                quality pipeline concept; and a web service which monitors and
+                visualizes quality metrics of the relational database product
               </li>
               <li className="text-sm mb-2">
                 Developed and maintained large scale cloud based API services
@@ -136,7 +137,7 @@ export default function Home() {
                 solution.
               </li>
               <li className="text-sm mb-2">
-                Over 6 years of experience in IT industry mainly in mobile and
+                Over 7 years of experience in IT industry mainly in mobile and
                 web application(back-end and front-end) development as a
                 software developer.
               </li>
@@ -159,7 +160,7 @@ export default function Home() {
                   <li>TypeScript</li>
                   <li>Java</li>
                   <li>Scala</li>
-                  <li>Rust(beginner)</li>
+                  <li>Go(beginner)</li>
                 </ul>
               </div>
               <div className="mb-2">
@@ -171,15 +172,16 @@ export default function Home() {
                 </div>
                 <ul className="list-inside list-disc text-sm mb-2">
                   <li>React</li>
-                  <li>Next.js</li>
                   <li>Vue.js</li>
+                  <li>Angular</li>
                   <li>jQuery</li>
-                  <li>LitElement(Web Component)</li>
+                  <li>LitElement</li>
                 </ul>
                 <div className="text-sm font-medium mb-1 inline-block bg-green-400 pl-1 pr-1">
                   Web Back-end
                 </div>
                 <ul className="list-inside list-disc text-sm">
+                  <li>Fastify</li>
                   <li>Express</li>
                   <li>Next.js</li>
                   <li>NestJS</li>
@@ -197,7 +199,7 @@ export default function Home() {
               <div className="mb-2">
                 <div className="text-base font-semibold mb-1">Databases</div>
                 <ul className="list-inside list-disc text-sm">
-                  <li>MariaDB</li>
+                  <li>PostgreSQL</li>
                   <li>SAP Hana</li>
                   <li>MongoDB</li>
                   <li>Redis</li>
@@ -210,12 +212,13 @@ export default function Home() {
                 <ul className="list-inside list-disc text-sm">
                   <li>GitHub</li>
                   <li>Gerrit</li>
+                  <li>GitLab</li>
                 </ul>
               </div>
               <div className="mb-2">
                 <div className="text-base font-semibold mb-1">CI/CD</div>
                 <ul className="list-inside list-disc text-sm">
-                  <li>Jenkins</li>
+                  <li>Jenkins(Jenkins Pipeline)</li>
                   <li>GitHub Actions</li>
                 </ul>
               </div>
@@ -261,13 +264,32 @@ export default function Home() {
                 </div>
                 <ul className="list-inside list-disc font-extralight text-sm">
                   <li className="mb-1">
+                    develop & operate a web service that manages overall
+                    deployment of a cloud-native relational database according
+                    to a 'quality stage pipeline' concept. The primary persona
+                    of this product, a stage owner, decides the promotion of a
+                    version release to the next stage(e.g. promotion from the
+                    'evaluation' stage to the 'early-adoption' stage) and
+                    perform the promotion using this service. The promotion can
+                    only be held by the request & approval process so that
+                    accidental promotion cannot be made. The 'stage' is like an
+                    operational environment where real instances of the DB
+                    reside. Owners of the instances can upgrade the instances to
+                    the version release assigned to the stage. The new version
+                    release is added to the stage when there is a promotion from
+                    the previous stage, which the stage owners perform.
+                    Consequently, when a version release is promoted to the
+                    so-called 'GA' stage, the end users(a.k.a. customers) can
+                    upgrade their DB instance to the version release.
+                  </li>
+                  <li className="mb-1">
                     develop & maintain a web service which displays a dashboard
                     of the relational database product's quality metrics.
                   </li>
                   <li className="mb-1">
                     develop & maintain a web service which visualize the
                     delivery status of a certain group of features and
-                    fixes(a.k.a. release) of the Relational Database product.
+                    fixes(a.k.a. release) of the relational database product.
                     There are several versions of the product(from new versions
                     to old versions) and those features and fixes must be
                     applied differently depending on the version since some
