@@ -12,16 +12,9 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Install and Build 🛠
-        uses: actions/setup-node@v2
-      - run: npm install
-      - run: npm run build # runs `next build`
-      - run: npm run export # runs `next export`
-      - run: touch out/.nojekyll
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # The branch the action should deploy to.
-          folder: out # The folder the action should deploy.
+          folder: src # The folder the action should deploy.
           clean: true # Automatically remove deleted files from the deploy branch
