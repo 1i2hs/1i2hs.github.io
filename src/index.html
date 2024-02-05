@@ -129,6 +129,24 @@
         }
       }
     </style>
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyDpRt2SIf-rGoDQdIWBhtm3d3gmyB0XxoE",
+        authDomain: "portfolio-ce8dd.firebaseapp.com",
+        projectId: "portfolio-ce8dd",
+        storageBucket: "portfolio-ce8dd.appspot.com",
+        messagingSenderId: "515412088654",
+        appId: "1:515412088654:web:beefb9dea6f5396de4701f",
+        measurementId: "G-8186E01560",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
   </head>
   <body>
     <main
@@ -325,8 +343,6 @@
                 <li>Fastify</li>
                 <li>Next.js</li>
                 <li>NestJS</li>
-                <li>Echo</li>
-                <li>Gin</li>
               </ul>
             </div>
             <div class="mb-2">
